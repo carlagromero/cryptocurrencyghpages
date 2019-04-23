@@ -1,0 +1,75 @@
+body {
+  background-color: #0d2235;
+}
+img {
+  max-width: 100%;
+}
+@media (max-width: 600px) {
+  img {
+    display: none;
+  }
+}
+
+h1 {
+  color: white;
+  text-align: left;
+  font-weight: 700;
+  font-size: 40px;
+  margin-bottom: 50px;
+  margin-top: 80px;
+}
+h1::after {
+  content: '';
+  width: 100px;
+  height: 6px;
+  background-color: #66a2fe;
+  display: block;
+}
+.container img {
+  margin-top: 150px;
+}
+
+label {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 2rem;
+}
+input[type='submit'] {
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  height: auto;
+}
+.error {
+  background-color: #b7322c;
+  padding: 1rem;
+  color: white;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+}
+
+.resultado {
+  color: white;
+  margin-bottom: 50px;
+}
+.resultado h2 {
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+
+.resultado p {
+  font-size: 15px !important;
+  margin-bottom: 0px !important;
+}
+.resultado p span {
+  font-weight: bold;
+}
+p.precio {
+  font-size: 20px !important;
+}
